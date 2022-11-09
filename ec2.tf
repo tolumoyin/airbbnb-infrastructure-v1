@@ -7,7 +7,7 @@ resource "aws_instance" "web" {
   }
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "web2" {
   ami           = var.AMI_ID
   instance_type = var.INSTANCE_TYPE
 
